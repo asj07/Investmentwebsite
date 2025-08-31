@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Admin Dashboard</title>
+  <link rel="stylesheet" href="/public/style.css" />
+</head>
+<body>
+  <h2>Admin Dashboard</h2>
+  <p>Users: {{usercount}} | Investments: {{investcount}} | Total Funds: ${{funds}}</p>
+  <h3>Investment Plans</h3>
+  <ul>
+    {{plans}}
+  </ul>
+  <h4>Add Plan</h4>
+  <form method="POST" action="/admin/addPlan">
+    <input name="name" placeholder="Name" required />
+    <input name="description" placeholder="Description" required />
+    <button type="submit">Add</button>
+  </form>
+  <p><a href="/logout">Logout</a></p>
+</body>
+</html>
