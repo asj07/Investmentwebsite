@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Contact</title>
+  <link rel="stylesheet" href="/public/style.css" />
+</head>
+<body>
+  <h2>Contact Us</h2>
+  <p>{{message}}</p>
+  <form method="POST" action="/contact">
+    <input name="name" placeholder="Name" required />
+    <input name="email" placeholder="Email" required />
+    <textarea name="message" placeholder="Message" required></textarea>
+    <button type="submit">Send</button>
+  </form>
+  <p><a href="/">Home</a></p>
+</body>
+</html>

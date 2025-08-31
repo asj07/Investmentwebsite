@@ -1,0 +1,14 @@
+{
+  "name": "investmentwebsite",
+  "version": "1.0.0",
+  "description": "Simple investment website with admin and customer portals",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "node --test"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs"
+}
